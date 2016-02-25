@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Lora:400italic);
+@import url(https://fonts.googleapis.com/css?family=Lora:700);
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700);
+
+
+html * {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 10px;
+}
+
+header{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	background-color: black;
+	border-bottom: 4px solid yellow;
+	text-align: right;
+	width: 1020px;
+}
+h1{
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	color: yellow;
+	text-align: left;
+}
+.bold{
+	font-weight: 700;
+}
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	font-style: bold;
+	text-decoration: none;
+}
+
+
+#tagline{
+	font-family: 'Lora', serif;
+	font-style: italic;
+	background-color: lightgray;
+	color: black;
+	text-align: center;
+	width: 1020px;
+}
+strike{
+	color: darkgray;
+	font-style: italic;
+}
+em{	
+	text-decoration: underline;
+	text-decoration-color:yellow;
+}
+
+
+.image{
+	height: 600px;
+	width: 1020px;
+	background-image: url("images/coworking.jpg");
+	background-repeat: no-repeat;
+	padding: 40px;
+}
+aside{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 22px;
+	line-height: 40px;
+	text-align: left;
+	background-color: white;
+	border-radius: 4px;
+	opacity: .75;
+	height: 450px;
+	width: 35%;
+	padding: 30px;
+	margin: 40px 10px;
+	float: right;
+}
+.profilebutton{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 10px 50px;
+	opacity: 1.0;
+	background-color: yellow;
+	color: black;
+	border-radius: 4px;
+	border-color: yellow;
+	margin: 15px;
+}
+
+
+
+#CTA{
+	height: 300px;
+	width: 1020px;
+	margin: 10px;
+}
+h3{
+	font-family: 'Lora', serif;
+	font-size: 24px;
+}
+.col1, .col2, .col3{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 22px;
+	padding: 0px 40px;
+	height: 100%;
+	width: 33.33%;
+	float: left;
+}
+.col2{
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+}
+.CTAbutton{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 10px 35px;
+	background-color: lightgray;
+	color: black;
+	border-radius: 4px;
+	border-color: lightgray;
+	margin: 15px;
+}
+
+
+footer{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 18px;
+	width: 1020px;
+	clear: both;
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
