@@ -7,6 +7,7 @@
 header{
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.5em;
+	letter-spacing: 1.5px;
 	font-weight: 400;
 	background-color: black;
 	border-bottom: 4px solid yellow;
@@ -59,8 +60,8 @@ em{
 }
 
 .image{
+	background-image: url(../images/coworking.jpg);
 	height: 600px;
-	background-image: url("images/coworking.jpg");
 	padding: 40px;
 }
 aside{
